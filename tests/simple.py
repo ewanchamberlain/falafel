@@ -1,7 +1,7 @@
 from __future__ import print_function
 from orphics import maps,io,cosmology,stats
 from pixell import enmap,lensing as plensing,curvedsky, utils, enplot
-from enlib import bench
+# from enlib import bench
 import numpy as np
 import os,sys
 import healpy as hp

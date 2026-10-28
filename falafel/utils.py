@@ -7,7 +7,7 @@ import os
 import glob
 import traceback
 import healpy as hp
-from . import qe
+from falafel import qe
 import math
 
 config = io.config_from_yaml(os.path.dirname(os.path.abspath(__file__)) + "/../input/config.yml")
